@@ -15,7 +15,7 @@
 
 // creating a variable and assigning a value to it in the same line
 let myName = 'omera' // assigning a string to a variable
-myName = 'akram' // changing the value
+myName = 'akram' // changing the value later
 
 
 let numberOfStudent // creating a variable without a value
