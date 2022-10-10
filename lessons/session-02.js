@@ -61,7 +61,7 @@ const division = one / two;
 const value1 = 4;
 const value2 = 2;
 
-const remainder = value1 % value2;
+const remainder = value1 % value2; // 5 % 2 -> 1 (1 is the remainder)
 const exponentiation = value1 ** value2; // 4 ** 2 -> 4 ^ 2 -> 16
 
 console.log(remainder);

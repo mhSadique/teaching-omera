@@ -31,6 +31,9 @@ let integer = 44;
 let decimalPointNumber = 34.7; // also called floating point number
 const PI = 3.1416; // another decimal point number
 
+const positiveInf = Infinity;
+const negatyiveInf = -Infinity;
+const specailNumber = NaN;
 
 
 
