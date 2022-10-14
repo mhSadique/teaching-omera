@@ -59,3 +59,4 @@ const res23 = 'omera' > 'Omera'; // true
 
 const res24 = 'a' > 'A'; // 90 > 65 -> true
 // discuss more on how to compare a string letter by letter
+
