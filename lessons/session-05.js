@@ -75,4 +75,37 @@ if (age <= 10) {
 }
 
 
-// ternary operator
+// ********* ternary operator ********** //
+// this is kind of a shorthand of if-else
+let isMember = true;
+let isPermittedToJoin = isMember ? 'permitted' : 'not permitted'; // this line equivalent to the if-else block below:
+
+let isPermittedToAttend;
+if (isMember) {
+    isPermittedToAttend = 'permitted';
+} else {
+    isPermittedToAttend = 'not permitted';
+}
+
+
+
+// ********* switch ********** //
+// this is an alternative to if-else if-else 
+// you may want to use it when there are lot of if-checks you need to do
+// you can explore more here: https://javascript.info/switch
+
+let a = 2 + 2;
+
+switch (a) {
+    case 3:
+        alert('Too small');
+        break;
+    case 4:
+        alert('Exactly!');
+        break;
+    case 5:
+        alert('Too big');
+        break;
+    default:
+        alert("I don't know such values");
+}
